@@ -48,6 +48,9 @@ git add .
 git commit -m "ghi chú commit"
 
 
+div className="jumbotron"
+
+
 
    "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
