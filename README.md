@@ -29,7 +29,9 @@ Thời lượng làm bài dự kiến: 195 phút
 cài đặt Font Awesome
 npm i font-awesome 
 cài đặt Bootstrap-Social
-npm i bootstrap-social@5.0.0
+npm install bootstrap-social@5.1.1
+
+
 
 cd lab
 
@@ -46,4 +48,70 @@ git add .
 git commit -m "ghi chú commit"
 
 
----------------lab 5 -------------------
+
+   "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-social": "^5.1.1",
+    "dateformat": "^5.0.3",
+    "font-awesome": "^4.7.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^9.1.1",
+    "web-vitals": "^2.1.4"
+
+
+"dependencies": {
+
+"bootstrap": "4.0.0",
+"bootstrap-social": "5.1.1",
+"cross-fetch": "2.1.0",
+"dateformat": "^4.5.1",
+"font-awesome": "4.7.0",
+"prop-types": "15.6.0",
+"react": "^16.3.2",
+"react-animation-components": "3.0.0",
+"react-dom": "^16.3.2",
+"react-popper": "0.9.2",
+"react-redux": "5.0.7",
+"react-redux-form": "1.16.8",
+"react-router-dom": "4.2.2",
+"react-scripts": "1.1.4",
+"react-transition-group": "2.3.0",
+"reactstrap": "5.0.0",
+"redux": "3.7.2",
+"redux-logger": "3.0.6",
+"redux-thunk": "2.2.0",
+"web-vitals": "^1.1.2"
+
+},
+
+
+
+
+
+Node.JS 17
+
+"dependencies": {
+
+"bootstrap": "^4.6.1",
+"bootstrap-social": "^5.1.1",
+"cross-fetch": "^3.1.5",
+"dateformat": "^5.0.2",
+"font-awesome": "^4.7.0",
+"prop-types": "^15.8.1",
+"react-popper": "^2.2.5",
+"react-redux": "^7.2.6",
+"react-redux-form": "^1.16.14",
+"react-router-dom": "^6.2.1",
+"react-scripts": "^5.0.0",
+"react-transition-group": "^4.4.2",
+"reactstrap": "^9.0.1",
+"redux": "^4.1.2",
+"redux-logger": "^3.0.6",
+"redux-thunk": "^2.4.1",
+"web-vitals": "^2.1.4"
+
+}
