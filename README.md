@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+ # Lab 05
+Nội dung bài tập thực hành:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hãy làm các bài lab theo link dưới đây và đảm bảo rằng bạn sẽ không xoá repositories cho đến khi kết thúc môn học. Lưu kết quả bài Lab trên Githup.
+Đặt tên bài lab ở Github theo quy định sau: LAB+number_subnumber. Ví dụ: LAB01_1
+Lỗi thường gặp: Khi dùng functional component, lưu ý việc sử dụng hay không dấu {} ở props, ví dụ: function RenderCard({ item }) thay vì function RenderCard(item) 
+Học viên vào link Video trên Coursera để xem chi tiết yêu cầu của bài lab, bản dịch đính kèm chỉ hỗ trợ dịch text.
 
-## Available Scripts
+1.
+Lab (Video): Header and Footer https://www.coursera.org/learn/front-end-react/lecture/7abwF/exercise-video-header-and-footer
+Lab (Instructions): Header and Footer https://www.coursera.org/learn/front-end-react/supplement/dLbRz/exercise-instructions-header-and-footer
+Lưu ý: nếu gặp lỗi khi cài đặt font-awesome với yarn thì hãy sửa theo gợi ý ở đây: https://stackoverflow.com/a/16460213 (chạy command: Set-ExecutionPolicy Unrestricted ở Powershell với quyền admin).
 
-In the project directory, you can run:
+2.
+Lab (Video): React Router https://www.coursera.org/learn/front-end-react/lecture/meLZh/exercise-video-react-router
+Lab (Instructions): React Router https://www.coursera.org/learn/front-end-react/supplement/X2eeR/exercise-instructions-react-router
 
-### `npm start`
+3.
+Lab (Video): Single Page Applications Part 1 https://www.coursera.org/learn/front-end-react/lecture/vdABh/exercise-video-single-page-applications-part-1
+Lab (Instructions): Single Page Applications Part 1 https://www.coursera.org/learn/front-end-react/supplement/CmStz/exercise-instructions-single-page-applications-part-1
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4.
+Lab (Video): Single Page Applications Part 2 https://www.coursera.org/learn/front-end-react/lecture/Mvhcl/exercise-video-single-page-applications-part-2
+Lab (Instructions): Single Page Applications Part 2  https://www.coursera.org/learn/front-end-react/supplement/39mcF/exercise-instructions-single-page-applications-part-2
+Lưu ý: trong file DishDetailComponent.js, nếu bạn khai báo DishDetail component là class thì những chỗ trong hướng dẫn đang sử dụng là props.abc thì cần sửa lại thành this.props.abc
+Thời lượng làm bài dự kiến: 195 phút
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+cài đặt Font Awesome
+npm i font-awesome 
+cài đặt Bootstrap-Social
+npm i bootstrap-social@5.0.0
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd lab
 
-### `npm run build`
+npm start 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/thunghiemweb/lab5.git lab5
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git push https://github.com/thunghiemweb/lab5.git master
 
-### `npm run eject`
+git add .
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git commit -m "ghi chú commit"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---------------lab 5 -------------------
